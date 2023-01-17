@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/699/640/867/red-pikachu-pokeballs-minimalism-wallpaper-preview.jpg);
 }
 
 h1 {
@@ -13,8 +13,20 @@ p {
 
 form{
     color:white;
+    text-align: center;
 }
 
 dl{
     color: white;
+    text-align: center;
+}
+
+
+
+.title {
+    animation: title 2s ease-in-out
+}
+
+@keyframes title {
+
 }

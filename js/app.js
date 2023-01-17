@@ -10,9 +10,9 @@ window.onload = (event) => {
       return response.json()
       }).then((json) => {
         console.log(json, 'this was successful')
-        document.querySelector('#name').innerText = json.species.name
-        document.querySelector('#type').innerText = json.types
-        document.querySelector('#ability').innerText = json.abilites
+        document.querySelector('#name').innerText = json.name
+        document.querySelector('#type').innerText = json.types 
+        document.querySelector('#ability').innerText = json.ability
       },
       (err) => {
         console.log(err, 'this was an error')
