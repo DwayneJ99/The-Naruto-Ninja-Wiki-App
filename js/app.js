@@ -11,9 +11,9 @@ window.onload = (event) => {
       }).then((json) => {
         console.log(json, 'this was sucessful')
           
-          doccument.querySelector('#name').innerText = json.Name
-          doccument.querySelector('#types').innerText = json.Types
-          doccument.querySelector('#abilities').innerText = json.abilities
+          document.querySelector('#name').innerText = json.name
+          document.querySelector('#types').innerText = json.types
+          document.querySelector('#abilities').innerText = json.abilities
         
       },
       (err) => {
