@@ -13,7 +13,8 @@ window.onload = (event) => {
           
           document.querySelector('#name').innerText = json.name
           document.querySelector('#types').innerText = json.types
-          document.querySelector('#abilities').innerText = json.abilities
+          document.querySelector('#abilities').innerText = json.abilities[0].ability.name
+         
         
       },
       (err) => {
