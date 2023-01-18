@@ -22,11 +22,15 @@ dl{
 }
 
 
-
-.title {
-    animation: title 2s ease-in-out
+title {
+    animation: 2s
 }
 
 @keyframes title {
-
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translate(5px) ;
+    }
 }
