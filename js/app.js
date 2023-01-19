@@ -15,6 +15,7 @@ window.onload = (event) => {
           document.querySelector('#types').innerText = json.types[0].type.name
           document.querySelector('#abilities').innerText = json.abilities[0].ability.name
           document.querySelector('#abilities2').innerText = json.abilities[1].ability.name
+        
          
          
         
