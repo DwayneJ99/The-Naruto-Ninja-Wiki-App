@@ -1,5 +1,6 @@
-# The Naruto Ninja Wiki App
+# The Pokemon Wiki App
 
-Welcome to the Naruto Ninja Wiki!
+Welcome to the Pokemon Wiki
 
-![Alt Text](https://media.giphy.com/media/Nzz86dByLtYTS/giphy.gif)
+In this application used HTML, CSS, and JAVASCRIPT to help me build a pokemon wiki. For this project the approach I taken was to build a simplified pokedex where the user can search any pokemon and get back the pokemon's type, name, and abilities.
+

@@ -1,15 +1,22 @@
 body {
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/699/640/867/red-pikachu-pokeballs-minimalism-wallpaper-preview.jpg);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+img {
+    width: 75%;
+    height: auto%;
 }
 
 h1 {
     text-align: center;
-    color:rgb(255,203,3)
+    color:rgb(255,203,3);
+    font-family:fantasy;
 }
 
-p {
-    text-align: center;
-}
 
 form{
     color:white;
